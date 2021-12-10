@@ -266,6 +266,7 @@ void loop()
 ```
 
 #Montaje
+
 El montaje en protoboard de este dispositivo es muy sencillo. Simplemente, tendremos que conectar los pines SLC de los dos dispositivos (Oled y sensor) al pin D1 del NodeMcu, y los pines SDA al pin D2.
 Alimentamos la Oled y el sensor de pulso a 3,3 V.
 El botón de reset lo conectamos mediante resistencia pull-up al pin D3 (Usamos una resistencia de 5.1 kOhmios).
@@ -273,4 +274,5 @@ El botón de lectura lo conectamos mediante resistencia pull-up al pin D4 (Usamo
 ![](https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/264889923_10220745367565937_7506006371979928544_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=gVo7z9mYLvQAX98LMGf&_nc_ht=scontent-mad1-1.xx&oh=00_AT-dj1ctiwCeMtU7534FE7oVG-1cQa_AUT8py6GLBt3viQ&oe=61B79972)
 
 #Futuro
+
 Próximamente soldaré los componentes a una PCB genérica e imprimiré en 3D una pinza para fijar el dispositivo al dedo, para aunar todos los componentes en el menor espacio posible.
